@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+   
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(32, 35, 24);
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.container .box .imgbox{
+    width: 20%;
+    height: 60%;
+}
+.d{
+    width: 80%;
+    height: 100%;
+}
+th,td{
+    padding: 5px;
+   
+}
+td{
+    color: rgb(246, 255, 247);
+    font-family: 'El Messiri', sans-serif;
+}
+th{
+    color: rgb(37, 31, 194);
+    font-family: 'Bree Serif', serif;
+}
+.d .over{
+ margin-top: 10%;
+color: rgb(37, 31, 194);
+font-family: 'Slabo 27px', serif;
+}
+ h3{
+    text-align: justify;
+    color: rgb(246, 255, 247);
+    font-family: 'Slabo 27px', serif;
+
+}
+.button{
+   display: flex;
+   align-items: center;
+   border-radius: 10px;
+   background-color:#ffff;
+}
+.button:active{
+    background-color: greenyellow;
+}
+
+.youtube{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+}
+.i{
+    width: 100%;
+ 
+    background-color: black;
+    color: red;
+}
+.dis{
+    display: none;
+}
